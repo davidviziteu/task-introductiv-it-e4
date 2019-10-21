@@ -1,5 +1,11 @@
 # task-introductiv-it-e4
 
+task uri:
+david - js
+alexia: deisgn
+stefan: implementeaza design in HTML/CSS
+-sandu: ??????
+
 strucutra website:
 -landing page ul cu dep nostru,
 -easteregg muiegeorge 
