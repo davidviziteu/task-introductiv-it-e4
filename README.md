@@ -1,7 +1,8 @@
 # task-introductiv-it-e4
 
 strucutra website:
--landing page ul cu dep nostru, 
+-landing page ul cu dep nostru,
+-easteregg muiegeorge 
 
 
 ce avem nevoie:
