@@ -14,3 +14,4 @@ iconuri:
 
 sugestii structura website:
 -https://pin.it/sjle3zsd7zj7ls
+-https://pin.it/lrnij7ybeqzofg
