@@ -1,6 +1,6 @@
 # task-introductiv-it-e4
 
-##task uri:
+## task uri:
 #### david - js
 #### alexia: deisgn
 #### george: implementeaza design in HTML/CSS
