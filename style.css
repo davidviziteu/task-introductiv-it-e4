@@ -15,8 +15,9 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    position: sticky;
+    position: fixed;
     top: 0;
+    z-index: 10;
 }
 .nav img{
     max-height: 50%;
