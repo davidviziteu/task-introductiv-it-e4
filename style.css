@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     background-color: wheat;
+    width: 100%;
 }
 .container
 {
@@ -9,7 +10,7 @@ body{
 }
 .nav{
     width: 100%;
-    height: 80px;
+    height: 4vw;
     background-color: #333;
     display: flex;
     flex-direction: row;
@@ -17,7 +18,6 @@ body{
     align-items: center;
     position: fixed;
     top: 0;
-    z-index: 10;
 }
 .nav img{
     max-height: 50%;
@@ -25,7 +25,6 @@ body{
 }
 .us
 {
-    position: relative;
     text-align: center;
     width: 100%;
     height: 30%;
@@ -35,36 +34,42 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
+    justify-content: center;
     transform: translate(-50%, -50%);
     color: white;
     font-family: Helvetica;
-    font-size: 120px;
+    font-size: 9vw;
     -webkit-text-stroke: 1px black;
   }
 .us img{
     width: 100vw;
     justify-content: center;
 }
+div button
+{
+    background-color: #f44336; /* Green */
+    border: none;
+    color: white;
+    padding: 2vw 3vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5vw;
+    margin: 2vw;
+    transition-duration: 0.4s;
+}
+div button:hover{
+    background-color: white;
+    color: black;
+    border: 0.05vw solid #f44336;
+}
 .buttons
 {
     display: flex;
     flex-direction: column;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 5vw;
+    padding-bottom: 6vw;
 }
-
-.buttonStyle{
-    margin: 50px;
-    background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
-
 .middle{
     justify-content: center;
     display: flex;
