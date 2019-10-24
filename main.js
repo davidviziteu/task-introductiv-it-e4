@@ -33,9 +33,11 @@ for(let i = 0; i < 5; ++i){
     div.style.position = "right"
     div.appendChild(img)
     document.getElementById("poze").appendChild(div)
+   //document.getElementById("poze").removeChild(div) useful pt cand vrei sa schimbi pozele
     
 
 }
+
 
 
 
