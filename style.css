@@ -1,5 +1,11 @@
 body{
     margin: 0px;
+    background-color: wheat;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
 }
 .nav{
     width: 100%;
@@ -10,14 +16,48 @@ body{
     justify-content: center;
     align-items: center;
     position: sticky;
+    top: 0;
 }
-.nav img
-{
-    max-height: 100%;
-    max-width: 100%;
+.nav img{
+    max-height: 50%;
+    max-width: 50%;
 }
 .us
 {
+    position: relative;
+    text-align: center;
     width: 100%;
-    height: 160px;
+    height: 30%;
+    font-size: 50%;
+}
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Helvetica;
+    font-size: 120px;
+    -webkit-text-stroke: 1px black;
+  }
+.us img{
+    width: 100vw;
+    justify-content: center;
+}
+.buttons
+{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.middle{
+    justify-content: center;
+    display: flex;
+}
+#arrange
+{
+    display:flex;
+    flex-direction: column;
 }
