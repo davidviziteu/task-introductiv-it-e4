@@ -1,22 +1,18 @@
+let nrOfImages = 7
 let imgArray = new Array();
+for(let i = 1; i <= nrOfImages; ++i){
+    imgArray[i] = new Image();
+    imgArray[i].src = `./images/img (${i}).jpg`;
+}
 
-imgArray[0] = new Image();
-imgArray[0].src = './images/img1.jpg';
+let imgHooverArray = new Array();
+for(let i = 1; i <= nrOfImages; ++i){
+    imgHooverArray[i] = new Image();
+    imgHooverArray[i].src = `./images/hoover/imgh (${i}).jpg`;
+}
+imgHooverArray[3].src = `./images/hoover/imgh (3).heic`;
 
-imgArray[1] = new Image();
-imgArray[1].src = './images/img2.jpg';
-
-imgArray[2] = new Image();
-imgArray[2].src = './images/img3.jpg';
-
-imgArray[3] = new Image();
-imgArray[3].src = './images/img4.jpg';
-
-imgArray[4] = new Image();
-imgArray[4].src = './images/img5.jpg';
-
-
-for(let i = 0; i < 5; ++i){
+for(let i = 1; i <= nrOfImages; ++i){
 
     var img = document.createElement("img")
     img.src = imgArray[i].src
