@@ -10,50 +10,43 @@ ziar
 8*/
 
 
-let itImgArray = new Array;
-let getaImgArray = new Array;
-let proImgArray = new Array;
-let riImgArray = new Array;
-let reImgArray = new Array;
-let prmImgArray = new Array;
-let evalImgArray = new Array;
-let ziarImgArray = new Array;
-
-for(let i = 1; i <= nrOfPpl.it; ++i){
-    itImgArray[i] = new Image();
-    itImgArray[i].src = `./images/it/img (${i}).jpg`;
+for(let i = 1; i <= it.nrOfPpl; ++i){
+    it.imgArray[i] = new Image();
+    it.imgArray[i].src = `./images/it/img (${i}).jpg`;
 }
-for(let i = 1; i <= nrOfPpl.geta; ++i){
-    getaImgArray[i] = new Image();
-    getaImgArray[i].src = `./images/geta/img (${i}).jpg`;
+for(let i = 1; i <= geta.nrOfPpl; ++i){
+    geta.imgArray[i] = new Image();
+    geta.imgArray[i].src = `./images/geta/img (${i}).jpg`;
 }
-for(let i = 1; i <= nrOfPpl.pro; ++i){
-    proImgArray[i] = new Image();
-    proImgArray[i].src = `./images/pro/img (${i}).jpg`;
+for(let i = 1; i <= pro.nrOfPpl; ++i){
+    pro.imgArray[i] = new Image();
+    pro.imgArray[i].src = `./images/pro/img (${i}).jpg`;
 }
-for(let i = 1; i <= nrOfPpl.ri;++i){
-    riImgArray[i] = new Image();
-    riImgArray[i].src = `./images/ri/img (${i}).jpg`;
+for(let i = 1; i <= ri.nrOfPpl; ++i){
+    ri.imgArray[i] = new Image();
+    ri.imgArray[i].src = `./images/ri/img (${i}).jpg`;
 }
-for(let i = 1; i <= nrOfPpl.re ;++i){
-    reImgArray[i] = new Image();
-    reImgArray[i].src = `./images/re/img (${i}).jpg`;
+for(let i = 1; i <= re.nrOfPpl ;++i){
+    re.imgArray[i] = new Image();
+    re.imgArray[i].src = `./images/re/img (${i}).jpg`;
 }
-for(let i = 1; i <= nrOfPpl.prm ;++i){
-    prmImgArray[i] = new Image();
-    prmImgArray[i].src = `./images/prm/img (${i}).jpg`;
+for(let i = 1; i <= prm.nrOfPpl ;++i){
+    prm.imgArray[i] = new Image();
+    prm.imgArray[i].src = `./images/prm/img (${i}).jpg`;
 }
-for(let i = 1; i <= nrOfPpl.eval ;++i){
-    evalImgArray[i] = new Image();
-    evalImgArray[i].src = `./images/eval/img (${i}).jpg`;
+for(let i = 1; i <= eval.nrOfPpl ;++i){
+    eval.imgArray[i] = new Image();
+    eval.imgArray[i].src = `./images/eval/img (${i}).jpg`;
 }
-for(let i = 1; i <= nrOfPpl.ziar ;++i){
-    ziarImgArray[i] = new Image();
-    ziarImgArray[i].src = `./images/ziar/img (${i}).jpg`;
+for(let i = 1; i <= ziar.nrOfPpl ;++i){
+    ziar.imgArray[i] = new Image();
+    ziar.imgArray[i].src = `./images/ziar/img (${i}).jpg`;
 }
 
-for(let i = 1; i <= nrOfPpl.ziar ;++i){
+for(let i = 1; i <= dept.nrOfPpl ;++i){
     dept.imgArray[i] = new Image();
     dept.imgArray[i].src = `./images/sample_photos/img (${i}).jpg`;
 }
+alert(dept.imgArray[1].src);
+
 

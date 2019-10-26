@@ -1,19 +1,81 @@
-let nrOfPpl = {
-    it : 6, //1,
-    geta : 6, //0,
-    pro : 6, //2,
-    ri : 6, //1,
-    re : 6, //1,
-    prm : 6, //0,
-    eval : 6, // 1
-    ziar : 6 //1
-};
+let it = {
+    imgArray: [],
+    opinionArray: [],
+    nameArray: [],
+    nrOfPpl: 6 //1
+}
+
+let geta = {
+    imgArray: [],
+    opinionArray: [],
+    nameArray: [],
+    nrOfPpl: 6 //0
+}
+
+let pro = {
+    imgArray: [],
+    opinionArray: [],
+    nameArray: [],
+    nrOfPpl: 6 //2
+}
+
+let re = {
+    imgArray: [],
+    opinionArray: [],
+    nameArray: [],
+    nrOfPpl: 6 //1
+}
+
+let ri = {
+    imgArray: [],
+    opinionArray: [],
+    nameArray: [],
+    nrOfPpl: 6 //1
+}
+
+let prm = {
+    imgArray: [],
+    opinionArray: [],
+    nameArray: [],
+    nrOfPpl: 6 //0
+}
+
+let eval = {
+    imgArray: [],
+    opinionArray: [],
+    nameArray: [],
+    nrOfPpl: 6 //1
+}
+
+let ziar = {
+    imgArray: [],
+    opinionArray: [],
+    nameArray: [],
+    nrOfPpl: 6 //1
+}
 
 let dept = {
-    imgArray,
-    textArray,
-    pplNr
+    imgArray: [],
+    opinionArray: [],
+    nameArray: [],
+    nrOfPpl: 6
 }
-dept.imgArray = new Array;
-dept.textArray = new Array;
-dept.pplNr = 6;
+
+
+var testt = {
+    foo: `this`,
+    bar: `works`,
+    arr: []
+}
+
+testt.arr[0] = `muie george`
+
+function someFunc(arg) {
+    alert(arg.arr[0]);
+}
+
+someFunc(testt)
+
+
+
+console.log(dept.imgArray[1])

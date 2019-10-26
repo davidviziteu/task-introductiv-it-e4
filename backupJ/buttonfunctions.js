@@ -55,4 +55,4 @@ document.getElementById("prmButton").addEventListener("click", () => addPhotos(p
 document.getElementById("ziarButton").addEventListener("click", () => addPhotos(ziarImgArray, nrOfPpl.ziar));
 document.getElementById("evalButton").addEventListener("click", () => addPhotos(evalImgArray, nrOfPpl.eval));
 document.getElementById("proButton").addEventListener("click", () => addPhotos(proImgArray, nrOfPpl.pro));
-document.getElementById("test").addEventListener("click", () => addPhotos(dept.imgArray, dept.nrOfPpl));
+document.getElementById("test").addEventListener("click", () => addPhotos(dept.imgArray, dept.pplNr));
