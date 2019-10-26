@@ -71,9 +71,9 @@ function addPhotosTest(obj){ // merge, asa ca nu i mai schimb numele
         div.id = `photo${i}`;
         div.className = "currentPhotos";
         div.style.position = "relative"
-        if(i % 2 == 0)
-            div.style.left = "100px"
-        else div.style.left = "500px"
+        if(i % 2 == 0) // ----------------------------------------------- not quite right
+            div.style.left = "100px" // ----------------------------------------------- not quite right
+        else div.style.left = "500px" // ----------------------------------------------- not quite right
         
         div.appendChild(img);
         document.getElementById("poze").appendChild(div);
