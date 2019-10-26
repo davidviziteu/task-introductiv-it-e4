@@ -1,39 +1,5 @@
-let nrOfImages = 7
-let imgArray = new Array();
-for(let i = 1; i <= nrOfImages; ++i){
-    imgArray[i] = new Image();
-    imgArray[i].src = `./images/img (${i}).jpg`;
-}
 
-let imgHooverArray = new Array();
-for(let i = 1; i <= nrOfImages; ++i){
-    imgHooverArray[i] = new Image();
-    imgHooverArray[i].src = `./images/hoover/imgh (${i}).jpg`;
-}
-imgHooverArray[3].src = `./images/hoover/imgh (3).heic`;
-
-for(let i = 1; i <= nrOfImages; ++i){
-
-    var img = document.createElement("img")
-    img.src = imgArray[i].src
-    img.style.display = "block"
-    img.style.width = "250px"
-    img.style.border = "10px solid transparent"
-    img.style.position = "relative"
-    img.style.borderRadius = "25px"
-    img.style.display = "block"
-    
-    let div = document.createElement("div")
-    div.id = `poza${i}`
-    div.className = "pozeArray"
-    div.style.position = "right"
-    div.appendChild(img)
-    document.getElementById("poze").appendChild(div)
-   //document.getElementById("poze").removeChild(div) useful pt cand vrei sa schimbi pozele
-    
-
-}
-
+//setTimeout(removeCurrentPhotos(), 3000)
 
 
 

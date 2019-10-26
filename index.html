@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Home</title>
         <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     </head>
     <body>
         <div id="arrange">
@@ -18,21 +19,24 @@
             <div class="container">
                 <div class="middle">
                     <div class="buttons">
-                        <button id="IT" class="buttonStyle">IT</button>
-                        <button id="RI" class="buttonStyle">Relații interne</button>
-                        <button id="RE" class="buttonStyle">Relații externe</button>
-                        <button id="Ziar" class="buttonStyle">Ziar</button>
+                        <button id="itButton" class="buttonStyle">IT</button>
+                        <button id="riButton" class="buttonStyle">Relații interne</button>
+                        <button id="reButton" class="buttonStyle">Relații externe</button>
+                        <button id="ziarButton" class="buttonStyle">Ziar</button>
                     </div>
                     <div class="buttons">
-                        <button id="GETA" class="buttonStyle">GETA</button>
-                        <button id="EVAL" class="buttonStyle">EVAL</button>
-                        <button id="PRO" class="buttonStyle">PRO</button>
-                        <button id="PR&M" class="buttonStyle">PR&M</button>
+                        <button id="getaButton" class="buttonStyle">GETA</button>
+                        <button id="evalButton" class="buttonStyle">EVAL</button>
+                        <button id="proButton" class="buttonStyle">PRO</button>
+                        <button id="prmButton" class="buttonStyle">PR&M</button>
+                        <button id="test" class="buttonStyle">test</button>
                     </div>
                 </div>
             </div>
             <div id = "poze"></div>
         </div>
-        <script src="./main.js"></script>
+        <script src="./varDeclarations.js"></script>
+        <script src="./photoLoader.js"></script>
+        <script src="./buttonfunctions.js"></script>
     </body>
 </html>
