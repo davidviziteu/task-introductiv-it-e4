@@ -64,15 +64,17 @@ function addPhotosTest(obj){ // merge, asa ca nu i mai schimb numele
         img.style.borderRadius = "25px";
         img.style.display = "block";
         img.style.width = "400px";
-        //img.style.maxWidth = "500px" ???????????????????? dc nu merge
-        img.style
-
+        
+        
         //appending
         let div = document.createElement("div");
         div.id = `photo${i}`;
         div.className = "currentPhotos";
         div.style.position = "relative"
-        div.style.left = "100px"
+        if(i % 2 == 0)
+            div.style.left = "100px"
+        else div.style.left = "500px"
+        
         div.appendChild(img);
         document.getElementById("poze").appendChild(div);
     }

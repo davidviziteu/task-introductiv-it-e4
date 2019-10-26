@@ -47,6 +47,6 @@ for(let i = 1; i <= dept.nrOfPpl ;++i){
     dept.imgArray[i] = new Image();
     dept.imgArray[i].src = `./images/sample_photos/img (${i}).jpg`;
 }
-alert(dept.imgArray[1].src);
+
 
 
