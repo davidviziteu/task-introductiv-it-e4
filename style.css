@@ -20,6 +20,7 @@ body{
     z-index: 10;
 }
 .nav img{
+    height: auto;
     max-height: 50%;
     max-width: 50%;
 }
@@ -27,7 +28,7 @@ body{
 {
     position: relative;
     text-align: center;
-    width: 100%;
+    width: auto;
     height: 30%;
     font-size: 50%;
 }
@@ -70,6 +71,7 @@ body{
 
 
 .middle{
+    width: auto;
     justify-content: center;
     display: flex;
 }
@@ -78,3 +80,5 @@ body{
     display:flex;
     flex-direction: column;
 }
+
+html, body { height: auto }

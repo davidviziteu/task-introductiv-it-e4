@@ -48,8 +48,11 @@ function addPhotos(departArray, departArrayLength){
     }
 }
 
+
+// ---------------photo&text adder -----------------------
 function addPhotosTest(obj){ // merge, asa ca nu i mai schimb numele
     removeCurrentPhotos();
+    
     for(let i = 1; i <= obj.nrOfPpl; ++i){
         
         var img = document.createElement("img");
@@ -61,34 +64,42 @@ function addPhotosTest(obj){ // merge, asa ca nu i mai schimb numele
         img.style.width = "250px";
         img.style.border = "10px solid transparent";
         img.style.position = "relative";
-        img.style.borderRadius = "25px";
         img.style.display = "block";
-        img.style.width = "400px";
+        img.style.width = "400px"; 
+        img.style.margin = "50px"
+        img.style.marginBottom = "20px"
+        img.style.borderRadius = `25px`
+        if(i % 2 == 1)
+            img.style.cssFloat = "left"
+        else
+            img.style.cssFloat = "right"
+        img.style.zIndex = "5"
+        img.onmouseover = function(){
+            this.src = obj.imgArrayHoover[i].src
+        }
+        img.onmouseleave = function(){
+            this.src = obj.imgArray[i].src
+        }
         
-        
-        //appending
+        //positioning
         let div = document.createElement("div");
         div.id = `photo${i}`;
         div.className = "currentPhotos";
-        div.style.position = "relative"
-        if(i % 2 == 0) // ----------------------------------------------- not quite right
-            div.style.left = "100px" // ----------------------------------------------- not quite right
-        else div.style.left = "500px" // ----------------------------------------------- not quite right
+        div.style.position = "sticky"
+        div.style.display = "inline-block"
+        div.style.width = "100%"        
         
         div.appendChild(img);
         document.getElementById("poze").appendChild(div);
     }
+
+    //----------autoscroll------------- inca nush cum sa l fac sa ia in considerare nav bar ul
+    let navBarDim = document.getElementById("navBar").offsetHeight
+    console.log(navBarDim)
+    document.getElementById('photo1').scrollIntoView({behavior: 'smooth'});
 }
 
 
-/*document.getElementById("itButton").addEventListener("click", () => addPhotos(it.imgArray, it.nrOfPpl));
-document.getElementById("getaButton").addEventListener("click", () => addPhotos(geta.imgArray, geta.nrOfPpl));
-document.getElementById("reButton").addEventListener("click", () => addPhotos(re.imgArray, re.nrOfPpl));
-document.getElementById("riButton").addEventListener("click", () => addPhotos(ri.imgArray, ri.nrOfPpl));
-document.getElementById("prmButton").addEventListener("click", () => addPhotos(prm.imgArray, prm.nrOfPpl));
-document.getElementById("ziarButton").addEventListener("click", () => addPhotos(ziar.imgArray, ziar.nrOfPpl));
-document.getElementById("evalButton").addEventListener("click", () => addPhotos(eval.imgArray, eval.nrOfPpl));
-document.getElementById("proButton").addEventListener("click", () => addPhotos(pro.imgArray, pro.nrOfPpl));*/
 document.getElementById("test").addEventListener("click", () => addPhotosTest(dept));
 document.getElementById("itButton").addEventListener("click", () => addPhotosTest(it));
 document.getElementById("getaButton").addEventListener("click", () => addPhotosTest(geta));

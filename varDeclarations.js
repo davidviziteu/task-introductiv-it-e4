@@ -1,5 +1,6 @@
 let it = {
     imgArray: [],
+    imgArrayHoover: [],
     opinionArray: [],
     nameArray: [],
     nrOfPpl: 6 //1
@@ -7,6 +8,7 @@ let it = {
 
 let geta = {
     imgArray: [],
+    imgArrayHoover: [],
     opinionArray: [],
     nameArray: [],
     nrOfPpl: 6 //0
@@ -14,6 +16,7 @@ let geta = {
 
 let pro = {
     imgArray: [],
+    imgArrayHoover: [],
     opinionArray: [],
     nameArray: [],
     nrOfPpl: 6 //2
@@ -21,6 +24,7 @@ let pro = {
 
 let re = {
     imgArray: [],
+    imgArrayHoover: [],
     opinionArray: [],
     nameArray: [],
     nrOfPpl: 6 //1
@@ -28,6 +32,7 @@ let re = {
 
 let ri = {
     imgArray: [],
+    imgArrayHoover: [],
     opinionArray: [],
     nameArray: [],
     nrOfPpl: 6 //1
@@ -35,6 +40,7 @@ let ri = {
 
 let prm = {
     imgArray: [],
+    imgArrayHoover: [],
     opinionArray: [],
     nameArray: [],
     nrOfPpl: 6 //0
@@ -42,6 +48,7 @@ let prm = {
 
 let eval = {
     imgArray: [],
+    imgArrayHoover: [],
     opinionArray: [],
     nameArray: [],
     nrOfPpl: 6 //1
@@ -49,6 +56,7 @@ let eval = {
 
 let ziar = {
     imgArray: [],
+    imgArrayHoover: [],
     opinionArray: [],
     nameArray: [],
     nrOfPpl: 6 //1
@@ -56,26 +64,8 @@ let ziar = {
 
 let dept = {
     imgArray: [],
+    imgArrayHoover: [],
     opinionArray: [],
     nameArray: [],
     nrOfPpl: 6
 }
-
-
-var testt = {
-    foo: `this`,
-    bar: `works`,
-    arr: []
-}
-
-testt.arr[0] = `muie george`
-
-function someFunc(arg) {
-    alert(arg.arr[0]);
-}
-
-someFunc(testt)
-
-
-
-console.log(dept.imgArray[1])
