@@ -2,12 +2,13 @@
 in html este un div (gol initial) cu id = "poze"
 
 cand apesi butonul unui departament se sterg toti copii div ului "poze" si
-se creeaza un array de div uri (class = "currentContent", id = "currentContent[1,2,3....]") 
+se creeaza mai multe div uri (class = "currentContent", id = "currentContent[1,2,3....]") 
 
 fiecare div "currentContent" are asa:
 -o poza cu class = currentPhoto, id = currentPhoto[1,2,3....]
--un textBox cu: <p> parere asii </p> (class = "whatThePrsSays")
-                <h1> nume <h1>        (class = "nameOfPrs")
+-un textBox (class = textBox, id = textBox[1,2,3.....])
+            text box ul are in el asa: <p> parere asii </p> (class = "whatThePrsSays")
+                                       <h1> nume <h1>        (class = "nameOfPrs")
 
 
 it
