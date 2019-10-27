@@ -22,7 +22,7 @@ ziar
 
 structura varibile:
 
-let dept = { //it / geta / pro...
+let dept = {                  it / geta / pro...
     imgArray: [],
     imgArrayHoover: [],
     opinionArray: [],
