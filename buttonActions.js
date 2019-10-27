@@ -1,12 +1,14 @@
 /*
-nrOfPpl.departament
-
-in html este un div cu id = "poze"
+in html este un div (gol initial) cu id = "poze"
 
 cand apesi butonul unui departament se sterg toti copii div ului "poze" si
-se creeaza div uri (class = "currentPhotos") cu poze 
+se creeaza un array de div uri (class = "currentContent", id = "currentContent[1,2,3....]") 
 
-eventual animat
+fiecare div "currentContent" are asa:
+-o poza cu class = currentPhoto, id = currentPhoto[1,2,3....]
+-un textBox cu: <p> parere asii </p> (class = "whatThePrsSays")
+                <h1> nume <h1>        (class = "nameOfPrs")
+
 
 it
 geta
@@ -16,6 +18,16 @@ re
 prm 
 eval
 ziar
+
+structura varibile:
+
+let dept = { //it / geta / pro...
+    imgArray: [],
+    imgArrayHoover: [],
+    opinionArray: [],
+    nameArray: [],
+    nrOfPpl: 6
+}
 
 */
 function removeCurrentPhotos(){
@@ -57,6 +69,8 @@ function addPhotosTest(obj){ // merge, asa ca nu i mai schimb numele
         
         var img = document.createElement("img");
         img.src = obj.imgArray[i].src;
+        img.className = "currentPhoto"
+        img.id = `currentPhoto${i}`
         
 
         //styling
@@ -73,30 +87,57 @@ function addPhotosTest(obj){ // merge, asa ca nu i mai schimb numele
             img.style.cssFloat = "left"
         else
             img.style.cssFloat = "right"
-        img.style.zIndex = "5"
+
+        img.style.zIndex = "5" //not working :(
+
+        //img hoover
         img.onmouseover = function(){
             this.src = obj.imgArrayHoover[i].src
         }
         img.onmouseleave = function(){
             this.src = obj.imgArray[i].src
         }
+                
+        //name positioning
+        let nameOfPrs = document.createElement("h2")
+        nameOfPrs.innerHTML = obj.nameArray[i]
+        nameOfPrs.className = `nameOfPrs`
+        nameOfPrs.position = "relative"
+
+        //opinion positioning
+        let whatThePrsSays = document.createElement("p")
+        whatThePrsSays.innerHTML = obj.opinionArray[i]
+        whatThePrsSays.className = `whatThePrsSays`
+        whatThePrsSays.position = "relative"
+
+        //text box
+        let textBox = document.createElement("div")
+        textBox.id = `textBox${i}`
+        textBox.className = `textBox`
+        textBox.position = `relative`
+        textBox.style.zIndex = "6"
+        textBox.style.backgroundColor = "#B6E3E9"
+        textBox.appendChild(whatThePrsSays)
+        textBox.appendChild(nameOfPrs)
+
         
-        //positioning
-        let div = document.createElement("div");
-        div.id = `photo${i}`;
-        div.className = "currentPhotos";
-        div.style.position = "sticky"
-        div.style.display = "inline-block"
-        div.style.width = "100%"        
+        //~positioning
+        let content = document.createElement("div");
+        content.id = `content${i}`;
+        content.className = "currentContent";
+        content.style.position = "sticky"
+        content.style.display = "inline-block"
+        content.style.width = "100%"        
         
-        div.appendChild(img);
-        document.getElementById("poze").appendChild(div);
+        content.appendChild(img);
+        content.appendChild(textBox)
+        document.getElementById("poze").appendChild(content);
     }
 
     //----------autoscroll------------- inca nush cum sa l fac sa ia in considerare nav bar ul
     let navBarDim = document.getElementById("navBar").offsetHeight
     console.log(navBarDim)
-    document.getElementById('photo1').scrollIntoView({behavior: 'smooth'});
+    document.getElementById('content1').scrollIntoView({behavior: 'smooth'});
 }
 
 
