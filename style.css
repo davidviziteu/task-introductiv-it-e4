@@ -20,13 +20,14 @@ body{
     top: 0;
 }
 .nav img{
+    height: auto;
     max-height: 50%;
     max-width: 50%;
 }
 .us
 {
     text-align: center;
-    width: 100%;
+    width: auto;
     height: 30%;
     font-size: 50%;
 }
@@ -67,10 +68,34 @@ div button:hover{
 {
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
     padding-top: 5vw;
     padding-bottom: 6vw;
 }
+=======
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.buttonStyle{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+>>>>>>> master
 .middle{
+    width: auto;
     justify-content: center;
     display: flex;
 }
