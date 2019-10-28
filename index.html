@@ -1,42 +1,328 @@
-<!DOCTYPE HTML>
-<html>
+<html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home</title>
+        <title>
+            ASII Newsletter!
+        </title>
+        <meta char="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://use.fontawesome.com/releases/v5.11.2/js/all.js"></script>
         <link rel="stylesheet" href="style.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     </head>
-    <body>
-        <div id="arrange">
-            <div class="nav" id = "navBar">
-                <img src="coffee.jpg">
-            </div>
-            <div class="us">
-                <img src="tower.png">
-                <div class="centered-text">Cultul lui Proca!</div>
-            </div>
-            <div class="container">
-                <div class="middle">
-                    <div class="buttons">
-                        <button id="itButton" class="buttonStyle">IT</button>
-                        <button id="riButton" class="buttonStyle">Relații interne</button>
-                        <button id="reButton" class="buttonStyle">Relații externe</button>
-                        <button id="ziarButton" class="buttonStyle">Ziar</button>
+    
+    <body id="grad">
+
+
+    <!-- Navigation Bar-->
+
+        <nav class="navbar navbar-dark bg-dark sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img class="imaje" src="IT_LOGO-9.png"></a>
+                <button class="navbar-toggler btn" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Acasa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">IT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Relații Interne</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Relații Externe</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">GETA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Ziar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                    </ul>
+                        </div>
                     </div>
-                    <div class="buttons">
-                        <button id="getaButton" class="buttonStyle">GETA</button>
-                        <button id="evalButton" class="buttonStyle">EVAL</button>
-                        <button id="proButton" class="buttonStyle">PRO</button>
-                        <button id="prmButton" class="buttonStyle">PR&M</button>
-                        <button id="test" class="buttonStyle">test</button>
-                    </div>
+        </nav>
+
+        <!-- Imagine cu noi -->
+        
+        <br>
+        <div class="row">
+            <img src="#">
+        </div>
+        <br>
+
+        <!-- Cardurile cu fiecare asociatie-->
+        
+        <div class="container-fluid row">
+        <div class="card bg-danger col-md-2 col-sm-6 col-xs-12">
+                <img class="card-img-top" src="#" alt="Imaginea Cardului">
+                <div class="card-body">
+                    <h4 class="card-title">IT</h4>
+                    <p class="card-text">asd</p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                            Open modal
+                          </button>
+                          
+                          <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                          
+                                <div class="modal-header">
+                                  <h4 class="modal-title"> Proca Teodor </h4>
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                          
+                                <div class="modal-body">
+                                  <img class="imaje" src="IT_LOGO-9.png">
+                                  <br>
+                                  <p> Mie imi plac spaghetele si o urasc pe Oniciuc! </p>
+                                </div>
+                          
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                          
+                              </div>
+                            </div>
+                          </div>
                 </div>
             </div>
+
+
+
+
+
+        <div class="card bg-danger col-md-2 col-sm-6 col-xs-12">
+            <img class="card-img-top" src="#" alt="Imaginea Cardului">
+            <div class="card-body">
+                <h4 class="card-title">IT</h4>
+                <p class="card-text">asd</p>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                        Open modal
+                      </button>
+                      
+                      <div class="modal" id="myModal">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                      
+                            <div class="modal-header">
+                              <h4 class="modal-title">Modal Heading</h4>
+                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                      
+                            <div class="modal-body">
+                              Modal body..
+                            </div>
+                      
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            </div>
+                      
+                          </div>
+                        </div>
+                      </div>
+            </div>
         </div>
-        <script src="./varDeclarations.js"></script>
-        <script src="./photoLoader.js"></script>
-        <script src="./opinions.js"></script>
-        <script src="./buttonActions.js"></script>
+        <div class="card bg-danger col-md-2 col-sm-6 col-xs-12">
+                <img class="card-img-top" src="#" alt="Imaginea Cardului">
+                <div class="card-body">
+                    <h4 class="card-title">IT</h4>
+                    <p class="card-text">asd</p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                            Open modal
+                          </button>
+                          
+                          <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                          
+                                <div class="modal-header">
+                                  <h4 class="modal-title">Modal Heading</h4>
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                          
+                                <div class="modal-body">
+                                  Modal body..
+                                </div>
+                          
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                          
+                              </div>
+                            </div>
+                          </div>
+                </div>
+            </div>
+            <div class="card bg-danger col-md-2 col-sm-6 col-xs-12">
+                    <img class="card-img-top" src="#" alt="Imaginea Cardului">
+                    <div class="card-body">
+                        <h4 class="card-title">IT</h4>
+                        <p class="card-text">asd</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                                Open modal
+                              </button>
+                              
+                              <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                              
+                                    <div class="modal-header">
+                                      <h4 class="modal-title">Modal Heading</h4>
+                                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+                              
+                                    <div class="modal-body">
+                                      Modal body..
+                                    </div>
+                              
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                    </div>
+                              
+                                  </div>
+                                </div>
+                              </div>
+                    </div>
+                </div>
+                <div class="card bg-danger col-md-2 col-sm-6 col-xs-12">
+                        <img class="card-img-top" src="#" alt="Imaginea Cardului">
+                        <div class="card-body">
+                            <h4 class="card-title">IT</h4>
+                            <p class="card-text">asd</p>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                                    Open modal
+                                  </button>
+                                  
+                                  <div class="modal" id="myModal">
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                  
+                                        <div class="modal-header">
+                                          <h4 class="modal-title">Modal Heading</h4>
+                                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        </div>
+                                  
+                                        <div class="modal-body">
+                                          Modal body..
+                                        </div>
+                                  
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                        </div>
+                                  
+                                      </div>
+                                    </div>
+                                  </div>
+                        </div>
+                    </div>
+                    <div class="card bg-danger col-md-2 col-sm-6 col-xs-12">
+                            <img class="card-img-top" src="#" alt="Imaginea Cardului">
+                            <div class="card-body">
+                                <h4 class="card-title">IT</h4>
+                                <p class="card-text">asd</p>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                                        Open modal
+                                      </button>
+                                      
+                                      <div class="modal" id="myModal">
+                                        <div class="modal-dialog">
+                                          <div class="modal-content">
+                                      
+                                            <div class="modal-header">
+                                              <h4 class="modal-title">Modal Heading</h4>
+                                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            </div>
+                                      
+                                            <div class="modal-body">
+                                              Modal body..
+                                            </div>
+                                      
+                                            <div class="modal-footer">
+                                              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                            </div>
+                                      
+                                          </div>
+                                        </div>
+                                      </div>
+                            </div>
+                        </div>
+                        <div class="card bg-danger col-md-2 col-sm-6 col-xs-12">
+                                <img class="card-img-top" src="#" alt="Imaginea Cardului">
+                                <div class="card-body">
+                                    <h4 class="card-title">IT</h4>
+                                    <p class="card-text">asd</p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                                            Open modal
+                                          </button>
+                                          
+                                          <div class="modal" id="myModal">
+                                            <div class="modal-dialog">
+                                              <div class="modal-content">
+                                          
+                                                <div class="modal-header">
+                                                  <h4 class="modal-title">Modal Heading</h4>
+                                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                </div>
+                                          
+                                                <div class="modal-body">
+                                                  Modal body..
+                                                </div>
+                                          
+                                                <div class="modal-footer">
+                                                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                                </div>
+                                          
+                                              </div>
+                                            </div>
+                                          </div>
+                                </div>
+                            </div>
+                            <div class="card bg-danger col-md-2 col-sm-6 col-xs-12">
+                                    <img class="card-img-top" src="#" alt="Imaginea Cardului">
+                                    <div class="card-body">
+                                        <h4 class="card-title">IT</h4>
+                                        <p class="card-text">asd</p>
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                                                Open modal
+                                              </button>
+                                              
+                                              <div class="modal" id="myModal">
+                                                <div class="modal-dialog">
+                                                  <div class="modal-content">
+                                              
+                                                    <div class="modal-header">
+                                                      <h4 class="modal-title">Modal Heading</h4>
+                                                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                    </div>
+                                              
+                                                    <div class="modal-body">
+                                                      Modal body..
+                                                    </div>
+                                              
+                                                    <div class="modal-footer">
+                                                      <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                                    </div>
+                                              
+                                                  </div>
+                                                </div>
+                                              </div>
+                                    </div>
+                                </div>
+            </div>
     </body>
+
+
 </html>
