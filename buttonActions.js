@@ -136,14 +136,13 @@ function addPhotosTest(obj){ // merge, asa ca nu i mai schimb numele
     }
 
     //----------autoscroll------------- inca nush cum sa l fac sa ia in considerare nav bar ul
-    let navBarDim = document.getElementById("navBar").offsetHeight
     console.log(navBarDim)
     document.getElementById('content1').scrollIntoView({behavior: 'smooth'});
 }
 
 
-document.getElementById("test").addEventListener("click", () => addPhotosTest(dept));
-document.getElementById("itButton").addEventListener("click", () => addPhotosTest(it));
+/*
+document.getElementById("itButton").addEventListener("click", () => addPhotosTest(it));*/
 document.getElementById("getaButton").addEventListener("click", () => addPhotosTest(geta));
 document.getElementById("reButton").addEventListener("click", () => addPhotosTest(re));
 document.getElementById("riButton").addEventListener("click", () => addPhotosTest(ri));
