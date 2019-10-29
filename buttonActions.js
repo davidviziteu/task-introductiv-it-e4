@@ -84,10 +84,8 @@ function addPhotosTest(obj){ // merge, asa ca nu i mai schimb numele
         img.style.margin = "50px"
         img.style.marginBottom = "20px"
         img.style.borderRadius = `25px`
-        if(i % 2 == 1)
-            img.style.cssFloat = "left"
-        else
-            img.style.cssFloat = "right"
+        
+        
 
         img.style.zIndex = "5" //not working :(
 
@@ -108,6 +106,7 @@ function addPhotosTest(obj){ // merge, asa ca nu i mai schimb numele
         //opinion positioning
         let whatThePrsSays = document.createElement("p")
         whatThePrsSays.innerHTML = obj.opinionArray[i]
+        //whatThePrsSays.style.fontSize = `2vw`
         whatThePrsSays.className = `whatThePrsSays`
         whatThePrsSays.position = "relative"
 
@@ -115,9 +114,16 @@ function addPhotosTest(obj){ // merge, asa ca nu i mai schimb numele
         let textBox = document.createElement("div")
         textBox.id = `textBox${i}`
         textBox.className = `textBox`
-        textBox.position = `relative`
+        textBox.style.position = `absolute`
+        textBox.style.left = `25%`
         textBox.style.zIndex = "6"
-        textBox.style.backgroundColor = "#B6E3E9"
+        textBox.style.backgroundColor = `white`
+        textBox.style.maxWidth = `60%`
+        textBox.style.top = `60%`
+        //textBox.style.bottom = `40%`
+        textBox.style.maxHeight = `90%`
+        textBox.style.borderRadius = `15px`
+        textBox.style.padding = `5px`
         textBox.appendChild(whatThePrsSays)
         textBox.appendChild(nameOfPrs)
 
@@ -128,8 +134,21 @@ function addPhotosTest(obj){ // merge, asa ca nu i mai schimb numele
         content.className = "currentContent";
         content.style.position = "sticky"
         content.style.display = "inline-block"
-        content.style.width = "100%"        
+        content.style.width = "100%"
+        content.style.padding = `10px`        
         
+        
+        //---------------img + text left / right -------------------
+        if(i % 2 == 1){
+            img.style.cssFloat = "left"
+            textBox.style.left = `28%`
+        }
+        else{
+            img.style.cssFloat = "right"
+            textBox.style.right = `28%`
+        }
+
+
         content.appendChild(img);
         content.appendChild(textBox)
         document.getElementById("poze").appendChild(content);

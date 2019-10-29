@@ -41,9 +41,6 @@ for (let i = 1; i <= 6; ++i){
 it.nameArray[1] = `Daria Ștefana Stărică`
 it.opinionArray[1] = `daria pls`
 
-it.nameArray[2] = `Alexandra Serdenciuc`
-it.opinionArray[2] = `alexandra pls`
-
 //--------------ri---------------------
 ri.nameArray[1] =  `Jerry`
 ri.opinionArray[1] = `jerry pls`
@@ -73,3 +70,7 @@ pro.opinionArray[2] `oana pls`
 
 //--------------geta---------------------
 //--------------pr&media---------------------
+prm.nameArray[1] = `Loredana Maria?`
+prm.opinionArray[1] = `PRIETENIE, DISTRACTIE, RESPONSABILITATE`
+prm.nameArray[2] = `Alexandra Serdenciuc`
+prm.opinionArray[2] = `Cei din asociatie au fost super deschiși și comunicativi, dispuși  să îi ajute și să îi învețe pe cei noi veniți, tratându-i ca pe unii de-ai lor. `
