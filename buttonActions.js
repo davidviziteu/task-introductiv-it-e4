@@ -78,7 +78,7 @@ function addPhotosTest(obj){ // merge, asa ca nu i mai schimb numele
         img.style.display = "block";
         img.style.width = "250px";
         img.style.border = "10px solid transparent";
-        img.style.position = "relative";
+        img.style.position = "static";
         img.style.display = "block";
         img.style.width = "400px"; 
         img.style.margin = "50px"
@@ -136,13 +136,9 @@ function addPhotosTest(obj){ // merge, asa ca nu i mai schimb numele
     }
 
     //----------autoscroll------------- inca nush cum sa l fac sa ia in considerare nav bar ul
-    let navBarDim = document.getElementById("navBar").offsetHeight
-    console.log(navBarDim)
     document.getElementById('content1').scrollIntoView({behavior: 'smooth'});
 }
 
-
-document.getElementById("test").addEventListener("click", () => addPhotosTest(dept));
 document.getElementById("itButton").addEventListener("click", () => addPhotosTest(it));
 document.getElementById("getaButton").addEventListener("click", () => addPhotosTest(geta));
 document.getElementById("reButton").addEventListener("click", () => addPhotosTest(re));
