@@ -34,16 +34,14 @@ for (let i = 1; i <= 6; ++i){
 
     ziar.nameArray[i] = `Prenume Nume`
     ziar.opinionArray[i] = `muie george muie george muie george muie george muie george muie george`
-
-
 }
 //-------------it----------------------
 it.nameArray[1] = `Daria Ștefana Stărică`
-it.opinionArray[1] = `daria pls`
+it.opinionArray[1] = `"iti dau maine"`
 
 //--------------ri---------------------
 ri.nameArray[1] =  `Jerry`
-ri.opinionArray[1] = `jerry pls`
+ri.opinionArray[1] = `Parerea mea despre ASII: un mediu de dezvoltarea pentru orice persoana din orice punct de vedere. Desi intotdeauna a existat competitie in ASII intre proiecte, departamente și persoane consider ca adevarata competitie relevanta pe care ASII pune accentul este competitia cu tine însuși. ASII, departamentul de Relatii Interne si GETA m-au ajutat sa fiu persoana care sunt acum si persoana care am sa vreau sa fiu toata viata prin urmare as vrea sa le multumesc tutoror coordonatoriilor si membrilor ASII care ii ajuta pe ceilalti sa se formeze si am sa inchei prin cuvantul care probabil ma va emoționa toata viata, bazaRI. `
 
 ri.nameArray[2] = `Rareș Grămescu`
 ri.opinionArray[2] = `gramescu pls`
