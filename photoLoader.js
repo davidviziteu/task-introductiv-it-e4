@@ -65,7 +65,4 @@ for(let i = 1; i <= dept.nrOfPpl ;++i){
     dept.imgArrayHoover[i].src = `./images/sample_photos/imgh (${i}).jpg`;
 }
 
-//fixes
-
-ri.imgArrayHoover[1].rotate(90)
 
