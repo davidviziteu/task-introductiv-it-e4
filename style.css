@@ -5,6 +5,7 @@ html, body{
 #grad{
     height: auto;
     background-image: linear-gradient(to bottom right,#4B086D, #ACC0FE);
+    background-size: cover;
 }
 .imaje
 {
@@ -27,10 +28,10 @@ html, body{
     margin: 2vw;
     margin-left: 5vw;
 }
-div button:hover{
+.btn:hover{
     background-color: black;
     color: white;
-    border: 0.05vw solid #ACC0FE;
+    border: 0.01vw solid #ACC0FE;
 }
 .center
 {
