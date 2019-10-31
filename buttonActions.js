@@ -35,33 +35,6 @@ function removeCurrentPhotos(){
     document.getElementById("poze").innerHTML = '';
 }
 
-//useless
-function addPhotos(departArray, departArrayLength){
-    removeCurrentPhotos();
-    for(let i = 1; i <= departArrayLength; ++i){
-        var img = document.createElement("img");
-        img.src = departArray[i].src;
-
-
-        //styling
-        img.style.display = "block";
-        img.style.width = "250px";
-        img.style.border = "10px solid transparent";
-        img.style.position = "relative";
-        img.style.borderRadius = "25px";
-        img.style.display = "block";
-        
-
-        //appending
-        let div = document.createElement("div");
-        div.id = `photo${i}`;
-        div.className = "currentPhotos";
-        div.appendChild(img);
-        document.getElementById("poze").appendChild(div);
-    }
-}
-
-
 // ---------------photo&text adder -----------------------
 function addPhotosTest(obj){ // merge, asa ca nu i mai schimb numele
     removeCurrentPhotos();
