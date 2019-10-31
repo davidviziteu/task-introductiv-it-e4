@@ -15,6 +15,7 @@ function easterEgg(){
 
         document.getElementById("poze").appendChild(Egg[i]);
     }
+    document.getElementById('gif 1').scrollIntoView({behavior: 'smooth'});
 }
 
         
