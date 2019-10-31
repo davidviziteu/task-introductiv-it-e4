@@ -64,7 +64,7 @@ pro.nameArray[1] = `Andreea Munteanu`
 pro.opinionArray[1] = `ASII e o comunitate mai mult decât e o asociație. După două semestre de ASII, începutul celui de-al treilea, pot vorbi cu destulă siguranță de un sentiment de apartenență pe care l-am observat la membrii ASII și care e de fapt liantul în relațiile dintre voluntari și, la un nivel mai mare, al asociației în sine. Funcționăm ca asociație fiindcă aparținem. Și pentru asta se cer oameni deschiși, oameni orientați spre frumos, spre a face lucruri, dispuși să investească în ei înșiși și în ceilalți. Nu e pentru oricine ASII. Dar cei care reușesc să se integreze și să aibă acel sentiment de apartenență de care vorbeam, sunt oameni norocoși. Intri în ASII singur și ieși cu o familie-ntreagă în spate. Și, cel mai probabil, după unul, două, trei semestre în ASII vei descoperi c-ai evoluat în moduri în care nu te așteptai să evoluezi; vorbesc din experiență. Asociația asta e despre și pentru oameni, și să intru-n ASII a fost una dintre cele mai bune decizii pe care le-am luat vreodată. Love you all`;
 
 pro.nameArray[2] = `Oana Rotaru`;
-pro.opinionArray[2] = `oana pls`
+pro.opinionArray[2] = `Oricine poate bănui ca ASII e doar o asociație oarecare în care atmostera este plictisitoare și în care membrii se concentrează doar pe chestii seriose, ceea ce, recunosc, credeam și eu înainte sa îi cunosc, dar defapt ei sunt pe departe cei mai distractivi și plini de viața oameni care cunosc sistemul binar.`
 
 //--------------geta---------------------
 //--------------pr&media---------------------
