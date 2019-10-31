@@ -49,7 +49,6 @@ function addPhotosTest(obj){ // merge, asa ca nu i mai schimb numele
 
         //styling
         img.style.display = "block";
-        img.style.width = "250px";
         img.style.border = "10px solid transparent";
         img.style.position = "static";
         img.style.display = "block";
@@ -57,9 +56,6 @@ function addPhotosTest(obj){ // merge, asa ca nu i mai schimb numele
         img.style.margin = "50px"
         img.style.marginBottom = "20px"
         img.style.borderRadius = `25px`
-        
-        
-
         img.style.zIndex = "5" //not working :(
 
         //img hoover

@@ -12,28 +12,28 @@ ziar
 // ---------- autofill --------------------
 for (let i = 1; i <= 6; ++i){
     it.nameArray[i] = `Prenume Nume`
-    it.opinionArray[i] = `muie george muie george muie george muie george muie george muie george`
+    it.opinionArray[i] = `IT UL E CEL MAI JMEKER DEPARTAMENT #muieGeorge`
     
     geta.nameArray[i] = `Prenume Nume`
-    geta.opinionArray[i] = `muie george muie george muie george muie george muie george muie george`
+    geta.opinionArray[i] = `IT UL E CEL MAI JMEKER DEPARTAMENT #muieGeorge`
 
     pro.nameArray[i] = `Prenume Nume`
-    pro.opinionArray[i] = `muie george muie george muie george muie george muie george muie george`
+    pro.opinionArray[i] = `IT UL E CEL MAI JMEKER DEPARTAMENT #muieGeorge`
 
     ri.nameArray[i] = `Prenume Nume`
-    ri.opinionArray[i] = `muie george muie george muie george muie george muie george muie george`
+    ri.opinionArray[i] = `IT UL E CEL MAI JMEKER DEPARTAMENT #muieGeorge`
 
     re.nameArray[i] = `Prenume Nume`
-    re.opinionArray[i] = `muie george muie george muie george muie george muie george muie george`
+    re.opinionArray[i] = `IT UL E CEL MAI JMEKER DEPARTAMENT #muieGeorge`
 
     prm.nameArray[i] = `Prenume Nume`
-    prm.opinionArray[i] = `muie george muie george muie george muie george muie george muie george`
+    prm.opinionArray[i] = `IT UL E CEL MAI JMEKER DEPARTAMENT #muieGeorge`
 
     eval.nameArray[i] = `Prenume Nume`
-    eval.opinionArray[i] = `muie george muie george muie george muie george muie george muie george`
+    eval.opinionArray[i] = `IT UL E CEL MAI JMEKER DEPARTAMENT #muieGeorge`
 
     ziar.nameArray[i] = `Prenume Nume`
-    ziar.opinionArray[i] = `muie george muie george muie george muie george muie george muie george`
+    ziar.opinionArray[i] = `IT UL E CEL MAI JMEKER DEPARTAMENT #muieGeorge`
 }
 //-------------it----------------------
 it.nameArray[1] = `Daria Ștefana Stărică`
@@ -46,10 +46,20 @@ ri.opinionArray[1] = `Parerea mea despre ASII: un mediu de dezvoltarea pentru or
 ri.nameArray[2] = `Rareș Grămescu`
 ri.opinionArray[2] = `gramescu pls`
 
+ri.nameArray[3] = `Adi și Alin`
+ri.opinionArray[3] = `It-ul este un departament SEX`
+
+ri.nameArray[4] = `Cristi Pelcear`
+//ri.opinionArray[4]...................................
 //--------------re---------------------
 re.nameArray[1] = `Mihnea Ștefan`
 re.opinionArray[1] = `Deci ASII e cea mai genială experiență pe care o poate avea un student din toate punctele de vedere. Cel mai important lucru, după toată 'activitatea', rămâi cu o familie cât un oraș, pentru o viață.`
 
+re.nameArray[2] = `Cristi Roșu`
+re.opinionArray[2] = `It-ul este baza asociatiei`
+
+re.nameArray[3] = `Stefan și Cosmin`
+re.opinionArray[3] = `In IT este foarte frumos. #muiegeorge`
 //--------------ziar---------------------
 ziar.nameArray[1] = `Maria Istrate`
 ziar.opinionArray[1] = `Alright well, ASII mie mi se pare uneori ca e o comunitate cu toate actele in regula. O sa o ridic la nivel de stat ca sa pot face niste analogii interesante.
@@ -72,3 +82,6 @@ prm.nameArray[1] = `Loredana Manea`
 prm.opinionArray[1] = `PRIETENIE, DISTRACTIE, RESPONSABILITATE`
 prm.nameArray[2] = `Alexandra Serdenciuc`
 prm.opinionArray[2] = `Cei din asociatie au fost super deschiși și comunicativi, dispuși  să îi ajute și să îi învețe pe cei noi veniți, tratându-i ca pe unii de-ai lor. `
+
+prm.nameArray[3] = `Raluca Macovei`
+prm.opinionArray[3] = `Departamentul de IT este o piesa importantă in angrenajul tuturor departamentelor ASII. Cred ca cei din IT au nevoie atât de technical skills pentru a-și putea face taskurile, dar bineînțeles și de tot ceea ce înseamnă softskills pentru a-și comunica mai departe ideile și de a lucra in echipa cu alți membri. Pe de alta parte, abia aștept sa actualizați site-ul ăla :))`
