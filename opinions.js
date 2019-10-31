@@ -80,6 +80,7 @@ pro.opinionArray[2] = `Oricine poate bănui ca ASII e doar o asociație oarecare
 //--------------pr&media---------------------
 prm.nameArray[1] = `Loredana Manea`
 prm.opinionArray[1] = `PRIETENIE, DISTRACTIE, RESPONSABILITATE`
+
 prm.nameArray[2] = `Alexandra Serdenciuc`
 prm.opinionArray[2] = `Cei din asociatie au fost super deschiși și comunicativi, dispuși  să îi ajute și să îi învețe pe cei noi veniți, tratându-i ca pe unii de-ai lor. `
 
