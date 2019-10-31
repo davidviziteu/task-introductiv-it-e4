@@ -1,0 +1,49 @@
+.photoContainer{
+    z-index: 5;
+    display: block;
+    width: 400px;
+    height: 533px;
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.photoContainer img{
+    z-index: 5;
+    display: block;
+    width: 100%;
+    position: relative;
+    border-radius: 25px;
+    transition: transform .2s ease-in-out;
+}
+
+.photoContainer img:hover{
+    transform: translate3d(0px, -533px,0px);
+}
+
+.textBox{
+    position: absolute;
+    left: 25%;
+    z-index: 6;
+    background-color: bisque;
+    max-width: 60%;
+    top: 60%;
+    max-height: 90%;
+    border-radius: 15px;
+    padding: 5px;
+}
+.currentContentLeft{
+    display: inline-block;
+    position: sticky;
+    width: 100%;
+    padding: 10px;
+}
+.currentContentRight{
+    display: inline-block;
+    position: sticky;
+    width: 100%;
+    padding: 10px;
+}
+
+
+
