@@ -4,7 +4,7 @@ let it = {
     imgArrayHoover: [],
     opinionArray: [],
     nameArray: [],
-    nrOfPpl: 6 //1
+    nrOfPpl: 1
 }
 
 let geta = {
@@ -12,7 +12,7 @@ let geta = {
     imgArrayHoover: [],
     opinionArray: [],
     nameArray: [],
-    nrOfPpl: 6 //0
+    nrOfPpl: 1
 }
 
 let pro = {
@@ -20,7 +20,7 @@ let pro = {
     imgArrayHoover: [],
     opinionArray: [],
     nameArray: [],
-    nrOfPpl: 6 //2
+    nrOfPpl: 2
 }
 
 let re = {
@@ -28,7 +28,7 @@ let re = {
     imgArrayHoover: [],
     opinionArray: [],
     nameArray: [],
-    nrOfPpl: 6 //1
+    nrOfPpl: 3
 }
 
 let ri = {
@@ -36,7 +36,7 @@ let ri = {
     imgArrayHoover: [],
     opinionArray: [],
     nameArray: [],
-    nrOfPpl: 6 //1
+    nrOfPpl: 4
 }
 
 let prm = {
@@ -44,7 +44,7 @@ let prm = {
     imgArrayHoover: [],
     opinionArray: [],
     nameArray: [],
-    nrOfPpl: 6 //0
+    nrOfPpl: 3
 }
 
 let eval = {
@@ -52,7 +52,7 @@ let eval = {
     imgArrayHoover: [],
     opinionArray: [],
     nameArray: [],
-    nrOfPpl: 6 //1
+    nrOfPpl: 1
 }
 
 let ziar = {
@@ -60,7 +60,7 @@ let ziar = {
     imgArrayHoover: [],
     opinionArray: [],
     nameArray: [],
-    nrOfPpl: 6 //1
+    nrOfPpl: 1
 }
 
 let dept = {

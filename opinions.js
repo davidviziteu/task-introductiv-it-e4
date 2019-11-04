@@ -37,7 +37,7 @@ for (let i = 1; i <= 6; ++i){
 }
 //-------------it----------------------
 it.nameArray[1] = `Daria Ștefana Stărică`
-it.opinionArray[1] = `"iti dau maine"`
+//it.opinionArray[1] = `"iti dau maine"`
 
 //--------------ri---------------------
 ri.nameArray[1] =  `Jerry`
