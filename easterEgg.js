@@ -1,7 +1,7 @@
 document.getElementById("easterEggTrigger").addEventListener("click", () => easterEgg());
 
 function easterEgg(){
-    alert("EasterEgg");
+    alert("Eyyy Manuel");
     let Egg = new Array;
     removeCurrentPhotos()
     for (i=1;i<=4;i++)
@@ -10,7 +10,7 @@ function easterEgg(){
         Egg[i].id = `gif ${i}`
         Egg[i].src = `./images/georgegif/egg (${i}).gif` 
         Egg[i].style.position = "center"
-        Egg[i].style.width = "432px";
+        Egg[i].style.width = "365px";
         Egg[i].style.height = "600px";
 
         document.getElementById("poze").appendChild(Egg[i]);
