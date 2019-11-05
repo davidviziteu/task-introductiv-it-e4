@@ -88,7 +88,7 @@ function addPhotosTest(obj){ // merge, asa ca nu i mai schimb numele
         textBox.style.zIndex = "6"
         textBox.style.backgroundColor = `white`
         textBox.style.maxWidth = `60%`
-        textBox.style.top = `60%`
+        textBox.style.bottom = `10%`
         //textBox.style.bottom = `40%`
         textBox.style.maxHeight = `90%`
         textBox.style.borderRadius = `15px`
@@ -110,10 +110,12 @@ function addPhotosTest(obj){ // merge, asa ca nu i mai schimb numele
         //---------------img + text left / right -------------------
         if(i % 2 == 1){
             img.style.cssFloat = "left"
+            img.style.left = `40%`
             textBox.style.left = `28%`
         }
         else{
             img.style.cssFloat = "right"
+            img.style.right = `40%`
             textBox.style.right = `28%`
         }
 
