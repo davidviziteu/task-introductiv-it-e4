@@ -10,8 +10,9 @@ function easterEgg(){
         Egg[i].id = `gif ${i}`
         Egg[i].src = `./images/georgegif/egg (${i}).gif` 
         Egg[i].style.position = "center"
-        Egg[i].style.width = "365px";
-        Egg[i].style.height = "600px";
+        Egg[i].style.width = window.innerWidth / 4 - 5;
+        Egg[i].style.height = "50vw";
+        Egg[i].style.display = `inline-block`
 
         document.getElementById("poze").appendChild(Egg[i]);
     }

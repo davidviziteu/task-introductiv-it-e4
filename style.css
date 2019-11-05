@@ -1,5 +1,10 @@
+@font-face {
+    font-family: google;
+    src: url(google.ttf);
+  }
+
 html, body {
-    font-family: 'google-snas-regular';
+    font-family: 'google', sans-serif, 'google snas regular.ttf';
     height: 100%;
 }
 
@@ -27,19 +32,6 @@ html, body {
     padding-left: 50px;
 }
 
-.footer {
-    position: relative;
-    margin-top: -150px; /* negative value of footer height */
-    height: 150px;
-    clear:both;
-    padding-top:20px;
-}
-
-.card {
-    margin: 2vw;
-    margin-left: 5vw;
-}
-
 .btn:hover {
     background-color: black;
     color: white;
@@ -62,7 +54,7 @@ html, body {
   color: black;
   padding: 16px 32px;
   text-align: center;
-  font-family: 'google-snas-regular';
+  /* font-family: 'myFirstFont';  */
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
