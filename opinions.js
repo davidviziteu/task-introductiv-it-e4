@@ -51,6 +51,12 @@ ri.opinionArray[3] = `It-ul este un departament SEX`
 
 ri.nameArray[4] = `Cristi Pelcear`
 //ri.opinionArray[4]...................................
+
+ri.nameArray[5] = "Andra Bîrzu"
+//ri.opinionArray[5] = ""
+
+ri.nameArray[6] = "Manea Andreea"
+
 //--------------re---------------------
 re.nameArray[1] = `Mihnea Ștefan`
 re.opinionArray[1] = `Deci ASII e cea mai genială experiență pe care o poate avea un student din toate punctele de vedere. Cel mai important lucru, după toată 'activitatea', rămâi cu o familie cât un oraș, pentru o viață.`
@@ -86,3 +92,6 @@ prm.opinionArray[2] = `Cei din asociatie au fost super deschiși și comunicativ
 
 prm.nameArray[3] = `Raluca Macovei`
 prm.opinionArray[3] = `Departamentul de IT este o piesa importantă in angrenajul tuturor departamentelor ASII. Cred ca cei din IT au nevoie atât de technical skills pentru a-și putea face taskurile, dar bineînțeles și de tot ceea ce înseamnă softskills pentru a-și comunica mai departe ideile și de a lucra in echipa cu alți membri. Pe de alta parte, abia aștept sa actualizați site-ul ăla :))`
+
+prm.nameArray[4] = "Adana Popescu"
+prm.opinionArray[4] = "parerea mea despre asii este ca reuseste intr-un mod eficient sa uneasca oamenii si sa realizeze proiecte interesante. asii reuseste sa faca voluntariatul sa se simta ca o activitate familiala in loc sa se simta ca o munca fortata. evenimentele realizate de asii reusesc sa promoveze asociatia prin caracterul lor constructiv si distractiv"
