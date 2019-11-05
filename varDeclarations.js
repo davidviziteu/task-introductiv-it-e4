@@ -36,7 +36,7 @@ let ri = {
     imgArrayHoover: [],
     opinionArray: [],
     nameArray: [],
-    nrOfPpl: 6
+    nrOfPpl: 7
 }
 
 let prm = {

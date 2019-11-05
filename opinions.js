@@ -10,7 +10,7 @@ ziar
 
 */
 // ---------- autofill --------------------
-for (let i = 1; i <= 6; ++i){
+for (let i = 1; i <= 10; ++i){
     it.nameArray[i] = `Prenume Nume`
     it.opinionArray[i] = `IT UL E CEL MAI JMEKER DEPARTAMENT #muieGeorge`
     
@@ -57,6 +57,8 @@ ri.nameArray[5] = "Andra Bîrzu"
 
 ri.nameArray[6] = "Manea Andreea"
 
+ri.nameArray[7] = `Adi Smău`
+
 //--------------re---------------------
 re.nameArray[1] = `Mihnea Ștefan`
 re.opinionArray[1] = `Deci ASII e cea mai genială experiență pe care o poate avea un student din toate punctele de vedere. Cel mai important lucru, după toată 'activitatea', rămâi cu o familie cât un oraș, pentru o viață.`
@@ -83,6 +85,8 @@ pro.nameArray[2] = `Oana Rotaru`;
 pro.opinionArray[2] = `Oricine poate bănui ca ASII e doar o asociație oarecare în care atmostera este plictisitoare și în care membrii se concentrează doar pe chestii seriose, ceea ce, recunosc, credeam și eu înainte sa îi cunosc, dar defapt ei sunt pe departe cei mai distractivi și plini de viața oameni care cunosc sistemul binar.`
 
 //--------------geta---------------------
+geta.nameArray[1] = `Laura Velicescu`
+geta.opinionArray[1] = `Schimbati pozele de pe site. Updatati site. ul ca e naspa. Bafta pentru cand incepeti sa lucrati pentru fiipractic. Intrati in GETA pentru ca nu sunt traineri din IT. Va pup - Laura Velicescu.`
 //--------------pr&media---------------------
 prm.nameArray[1] = `Loredana Manea`
 prm.opinionArray[1] = `PRIETENIE, DISTRACTIE, RESPONSABILITATE`
