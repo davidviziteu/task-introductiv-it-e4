@@ -36,7 +36,7 @@ let ri = {
     imgArrayHoover: [],
     opinionArray: [],
     nameArray: [],
-    nrOfPpl: 4
+    nrOfPpl: 6
 }
 
 let prm = {
@@ -44,7 +44,7 @@ let prm = {
     imgArrayHoover: [],
     opinionArray: [],
     nameArray: [],
-    nrOfPpl: 3
+    nrOfPpl: 4
 }
 
 let eval = {
